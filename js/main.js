@@ -1,3 +1,4 @@
+// counter 
 let four = document.getElementById("400");
 let six = document.getElementById("600");
 let one = document.getElementById("100");
@@ -17,3 +18,15 @@ function counter(element) {
 }
 
 counter(element);
+
+
+// add btn 
+section = document.querySelector("#services")
+scrollBtn = document.querySelector(".scroll")
+window.onscroll= ()=>{
+  if (window.scrollY + window.innerHeight >= section.offsetTop) {
+    scrollBtn.classList.remove("d-none")
+  }else {
+    scrollBtn.classList.add("d-none");
+  }
+}
