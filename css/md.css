@@ -1,0 +1,45 @@
+/* width start */
+.w-md-100{
+    width: 100% !important;
+}
+.w-md-75{
+    width: 75% !important;
+}
+.w-md-50{
+    width: 50% !important;
+}
+.w-md-25{
+    width: 25% !important;
+}
+/* width end */
+
+/* services start */
+.services .container>h1::after {
+display: none;
+}
+.services .container>h1{
+    margin-left: 0 !important;
+}
+/* services end */
+
+/* plan start */
+.plan ul span::after {
+    height: 200%;
+    bottom: -215%;
+}
+/* plan end */
+/* opinions start */
+.opinions .right h1 {
+    font-size: 33px;
+}
+.opinions .opinions-box {
+    left: 16%;
+}
+.opinions .box {
+    width: 300px;
+    height: 400px;
+}
+.position-md-absolute{
+    position: absolute;
+}
+/* opinions end */
